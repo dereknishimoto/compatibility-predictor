@@ -3,7 +3,7 @@ package compatibility_predictor;
 public class Employee {
 	
 	private String name;
-	private long strength, endurance, intelligence;
+	private long strength, endurance, intelligence, bravery;
 	private float score;
 	
 	//default constructor
@@ -12,15 +12,17 @@ public class Employee {
 		this.strength = 0;
 		this.endurance = 0;
 		this.intelligence = 0;
+		this.bravery = 0;
 		this.score = 0;
 	}
 	
 	//parameterized contructor
-	public Employee(String inName, long inStength, long inEndurance, long  inIntelligence) {
+	public Employee(String inName, long inStength, long inEndurance, long  inIntelligence, long inBravery) {
 		this.name = inName;
 		this.strength = inStength;
 		this.endurance = inEndurance;
 		this.intelligence = inIntelligence;
+		this.bravery = inBravery;
 		this.score = 0;
 	}
 	
@@ -38,6 +40,10 @@ public class Employee {
 	
 	public long getIntelligence() {
 		return this.intelligence;
+	}
+	
+	public long getBravery() {
+		return this.bravery;
 	}
 	
 	public float getScore() {
