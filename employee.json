@@ -1,0 +1,50 @@
+{
+    "team" : [
+        {
+            "name" : "Ed",
+            "attributes" : {
+                "intelligence" : 1,
+                "strength" : 9,
+                "endurance" : 5
+            }
+        }, {
+            "name" : "Edd",
+            "attributes" : {
+                "intelligence" : 9,
+                "strength" : 1,
+                "endurance" : 2
+            }
+        }, {
+            "name" : "Eddie",
+            "attributes" : {
+                "intelligence" : 5,
+                "strength" : 5,
+                "endurance" : 5
+            }
+        }
+    ],
+    "applicants" : [
+        {
+            "name" : "Harry",
+            "attributes" : {
+                "intelligence" : 7,
+                "strength" : 7,
+                "endurance" : 6 
+            }
+        }, {
+            "name" : "Hermione",
+            "attributes" : {
+                "intelligence" : 9,
+                "strength" : 4,
+                "endurance" : 6
+            }
+        }, {
+            "name" : "Ron",
+            "attributes" : {
+                "intelligence" : 3,
+                "strength" : 7,
+                "endurance" : 5
+            }
+        }
+    ]
+}
