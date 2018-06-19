@@ -29,7 +29,6 @@ public class Program extends Employee {
     	avgTeamEnd = totalTeamEnd/teamList.length;
     	avgTeamInt = totalTeamInt/teamList.length;
     	avgTeamBrv = totalTeamBrv/teamList.length;
-    	System.out.println("avg(str,end,int,brv): "+avgTeamStr+": "+avgTeamEnd+": "+avgTeamInt+": "+avgTeamBrv);
     	
     	//computes score for applicants
     	for(int i = 0; i < applicantsList.length; i++) {
@@ -39,7 +38,6 @@ public class Program extends Employee {
     					Math.abs(applicantsList[i].getBravery() - avgTeamBrv);
     			score = (10 - difference/2)/10 ;
     			applicantsList[i].setScore(score);
-    			System.out.println("Score: "+applicantsList[i].getScore());
     	}
     }
 

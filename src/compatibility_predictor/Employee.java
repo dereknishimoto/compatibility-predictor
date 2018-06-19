@@ -16,7 +16,7 @@ public class Employee {
 		this.score = 0;
 	}
 	
-	//parameterized contructor
+	//parameterized constructor
 	public Employee(String inName, long inStength, long inEndurance, long  inIntelligence, long inBravery) {
 		this.name = inName;
 		this.strength = inStength;
