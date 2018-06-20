@@ -1,4 +1,4 @@
-package compatibility_predictor;
+package aaa;
 
 import java.io.IOException;
 import java.io.FileNotFoundException;

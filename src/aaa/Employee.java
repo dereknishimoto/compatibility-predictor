@@ -1,4 +1,4 @@
-package compatibility_predictor;
+package aaa;
 
 public class Employee {
 	
